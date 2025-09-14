@@ -480,6 +480,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -8680,6 +8690,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -16882,6 +16902,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -25082,6 +25112,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -33284,6 +33324,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -41484,6 +41534,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -50147,6 +50207,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -58829,6 +58899,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -67041,6 +67121,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
     Object {
       "//": "allow info refs (for git clone)",
@@ -75393,6 +75483,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
     Object {
       "//": "allow info refs (for git clone)",
@@ -83821,6 +83921,16 @@ Object {
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
     Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
+    Object {
       "//": "allow info refs (for git clone)",
       "auth": Object {
         "scheme": "basic",
@@ -92204,6 +92314,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -92702,6 +92822,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -109160,6 +109290,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -117360,6 +117500,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
@@ -125570,6 +125720,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/{comment_id}",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -133771,6 +133931,16 @@ Object {
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
     },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
+    },
   ],
   "public": Array [
     Object {
@@ -141971,6 +142141,16 @@ Object {
       "method": "PATCH",
       "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
       "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:commentId",
+    },
+    Object {
+      "//": "create a pull request thread comment",
+      "auth": Object {
+        "scheme": "basic",
+        "token": "\${BROKER_CLIENT_VALIDATION_BASIC_AUTH}",
+      },
+      "method": "POST",
+      "origin": "https://\${AZURE_REPOS_HOST}/\${AZURE_REPOS_ORG}",
+      "path": "/:owner/_apis/git/repositories/:repo/pullRequests/:pullRef/threads/:threadId/comments",
     },
   ],
   "public": Array [
