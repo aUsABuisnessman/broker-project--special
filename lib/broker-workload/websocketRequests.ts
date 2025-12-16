@@ -24,15 +24,17 @@ import {
   incrementHttpRequestsTotal,
 } from '../hybrid-sdk/common/utils/metrics';
 import { maskToken, hashToken } from '../hybrid-sdk/common/utils/token';
+import { WebSocketServer } from '../hybrid-sdk/server/types/socket';
+import { WebSocketConnection } from '../hybrid-sdk/client/types/client';
 
 export class BrokerWorkload extends Workload<WorkloadType.remoteServer> {
   options;
   connectionIdentifier: string;
-  websocketConnectionHandler;
+  websocketConnectionHandler: WebSocketServer | WebSocketConnection;
   constructor(
     connectionIdentifier: string,
     options,
-    websocketConnectionHandler,
+    websocketConnectionHandler: WebSocketServer | WebSocketConnection,
   ) {
     super('broker', WorkloadType['remote-server']);
     this.options = options;
@@ -185,7 +187,6 @@ export class BrokerWorkload extends Workload<WorkloadType.remoteServer> {
             logger.warn(
               {
                 statusCode: response.statusCode,
-                responseHeaders: response.headers,
                 url: preparedRequest.req.url,
               },
               `[Websocket Flow][Inbound] Unexpected status code for relayed request.`,
