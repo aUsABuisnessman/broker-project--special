@@ -160,6 +160,44 @@ describe('filters and interpolates', () => {
         );
         expect(result.url).toMatch(url);
       });
+
+      it('should allow deleting a branch', () => {
+        const url =
+          '/repos/test-org/test-repo/git/refs/heads%2Fsnyk-fix-936792ffbb98fdfd7bf5784d73d7ed1a';
+        const filterResponse = filter({
+          url,
+          method: 'DELETE',
+        });
+        expect(filterResponse).not.toEqual(false);
+        const filterResponseAsRule = filterResponse as Rule;
+        const result = getInterpolatedRequest(
+          null,
+          filterResponseAsRule,
+          {
+            url,
+            method: 'GET',
+          },
+          {},
+          {},
+        );
+        expect(result.url).toMatch(url);
+      });
+    });
+
+    describe('for GHE private filters', () => {
+      const rules = JSON.parse(loadFixture(path.join('accept', 'ghe.json')));
+      const filter = loadFilters(rules.private, 'default', {});
+
+      it('should allow DELETE request to git refs with URL-encoded branch name', () => {
+        const url =
+          '/repos/test-org/test-repo/git/refs/heads%2Fsnyk-fix-936792ffbb98fdfd7bf5784d73d7ed1a';
+
+        const filterResponse = filter({
+          url,
+          method: 'DELETE',
+        });
+        expect(filterResponse).toBeTruthy();
+      });
     });
 
     describe('for bitbucket server private filters', () => {
@@ -1052,6 +1090,29 @@ describe('filters and interpolates', () => {
 
       it('should allow commiting a fix', () => {
         const url = '/api/v4/projects/123/repository/commits';
+
+        const filterResponse = filter({
+          url,
+          method: 'POST',
+        });
+        expect(filterResponse).not.toEqual(false);
+        const filterResponseAsRule = filterResponse as Rule;
+        const result = getInterpolatedRequest(
+          null,
+          filterResponseAsRule,
+          {
+            url,
+            method: 'GET',
+          },
+          {},
+          {},
+        );
+        expect(result.url).toMatch(url);
+      });
+
+      it('should allow POST request to create a branch', () => {
+        const url =
+          '/api/v4/projects/123/repository/branches?branch=test-branch&ref=main';
 
         const filterResponse = filter({
           url,

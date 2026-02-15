@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`filter Rules Loading Disable Injection of valid CODE GH rules - Testing azure-repos 1`] = `
 Object {
@@ -3048,6 +3048,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -5274,6 +5280,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -8239,6 +8251,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -11377,6 +11395,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -13603,6 +13627,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -16568,6 +16598,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -19706,6 +19742,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -21932,6 +21974,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -24897,6 +24945,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -28035,6 +28089,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -30261,6 +30321,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -33226,6 +33292,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -36364,6 +36436,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -38590,6 +38668,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -41555,6 +41639,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -44747,6 +44837,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -46985,6 +47081,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -49977,6 +50079,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -53850,6 +53958,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -56136,6 +56250,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -59155,6 +59275,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -62293,6 +62419,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -64525,6 +64657,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -67496,6 +67634,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -70727,6 +70871,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -72971,6 +73121,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -75954,6 +76110,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -79249,6 +79411,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -81505,6 +81673,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -84500,6 +84674,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -87761,6 +87941,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -90005,6 +90191,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -92988,6 +93180,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -99442,6 +99640,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -101730,6 +101934,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -103982,6 +104192,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -105524,6 +105740,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -108515,6 +108737,12 @@ Object {
       "path": "/api/v4/projects/:project/repository/commits/:sha",
     },
     Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
+    },
+    Object {
       "//": "get merge base of two commits for given project.",
       "method": "GET",
       "origin": "https://\${GITLAB}",
@@ -110230,6 +110458,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -113392,6 +113626,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -115618,6 +115858,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -118583,6 +118829,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -121721,6 +121973,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -123947,6 +124205,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -126914,6 +127178,12 @@ Object {
       "path": "/api/v4/projects/:project/repository/commits/:sha",
     },
     Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
+    },
+    Object {
       "//": "get merge base of two commits for given project.",
       "method": "GET",
       "origin": "https://\${GITLAB}",
@@ -128781,8 +129051,9 @@ Object {
     Object {
       "//": "create repository based commit status",
       "auth": Object {
-        "scheme": "bearer",
-        "token": "\${BITBUCKET_PAT}",
+        "password": "\${BITBUCKET_PASSWORD}",
+        "scheme": "basic",
+        "username": "\${BITBUCKET_USERNAME}",
       },
       "method": "POST",
       "origin": "https://\${BITBUCKET}",
@@ -129951,9 +130222,8 @@ Object {
     Object {
       "//": "create repository based commit status",
       "auth": Object {
-        "password": "\${BITBUCKET_PASSWORD}",
-        "scheme": "basic",
-        "username": "\${BITBUCKET_USERNAME}",
+        "scheme": "bearer",
+        "token": "\${BITBUCKET_PAT}",
       },
       "method": "POST",
       "origin": "https://\${BITBUCKET}",
@@ -130056,6 +130326,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -132284,6 +132560,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -135291,6 +135573,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -138429,6 +138717,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -140655,6 +140949,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -143620,6 +143920,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
@@ -146758,6 +147064,12 @@ Object {
       "path": "/repos/:user/:repo/branches/:branch",
     },
     Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
+    },
+    Object {
       "//": "used to get status checks on a branch",
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
@@ -148984,6 +149296,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
       "path": "/repos/:user/:repo/branches/:branch",
+    },
+    Object {
+      "//": "used to delete a git ref (branch)",
+      "method": "DELETE",
+      "origin": "https://\${GITHUB_TOKEN}@\${GITHUB_API}",
+      "path": "/repos/:user/:repo/git/refs/:ref",
     },
     Object {
       "//": "used to get status checks on a branch",
@@ -151949,6 +152267,12 @@ Object {
       "method": "GET",
       "origin": "https://\${GITLAB}",
       "path": "/api/v4/projects/:project/repository/commits/:sha",
+    },
+    Object {
+      "//": "used to delete a branch",
+      "method": "POST",
+      "origin": "https://\${GITLAB}",
+      "path": "/api/v4/projects/:project/repository/branches/:branch",
     },
     Object {
       "//": "get merge base of two commits for given project.",
